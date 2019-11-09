@@ -75,7 +75,7 @@ struct instruction** buildTable(int states){
 };
 
 int main() {
-    printf("C Turing Machine\n");
+    printf("Turing Machine\n");
     //B is 66
     struct node* head = newNode('B',NULL, NULL);
 
